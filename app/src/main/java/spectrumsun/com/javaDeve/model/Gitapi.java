@@ -1,4 +1,4 @@
-package spectrumsun.com.mymy.model;
+package spectrumsun.com.javaDeve.model;
 
 /**
  * Created by Spectrum Sun on 07/16/2017.

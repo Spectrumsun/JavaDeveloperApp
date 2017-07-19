@@ -1,4 +1,4 @@
-package spectrumsun.com.mymy.adapter;
+package spectrumsun.com.javaDeve.adapter;
 
 /**
  * Created by Spectrum Sun on 07/16/2017.
@@ -18,8 +18,8 @@ import com.android.volley.toolbox.NetworkImageView;
 import java.util.List;
 
 import spectrumsun.com.mymy.R;
-import spectrumsun.com.mymy.app.AppController;
-import spectrumsun.com.mymy.model.Gitapi;
+import spectrumsun.com.javaDeve.app.AppController;
+import spectrumsun.com.javaDeve.model.Gitapi;
 
 
 public class CustomListAdapter extends BaseAdapter {

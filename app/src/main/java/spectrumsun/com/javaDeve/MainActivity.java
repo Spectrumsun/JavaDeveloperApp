@@ -1,4 +1,4 @@
-package spectrumsun.com.mymy;
+package spectrumsun.com.javaDeve;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -26,9 +26,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import spectrumsun.com.mymy.adapter.CustomListAdapter;
-import spectrumsun.com.mymy.app.AppController;
-import spectrumsun.com.mymy.model.Gitapi;
+import spectrumsun.com.javaDeve.adapter.CustomListAdapter;
+import spectrumsun.com.javaDeve.model.Gitapi;
+import spectrumsun.com.mymy.R;
+import spectrumsun.com.javaDeve.app.AppController;
 
 public class MainActivity extends AppCompatActivity {
 

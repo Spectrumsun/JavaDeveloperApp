@@ -1,4 +1,4 @@
-package spectrumsun.com.mymy.util;
+package spectrumsun.com.javaDeve.util;
 
 /**
  * Created by Spectrum Sun on 07/16/2017.

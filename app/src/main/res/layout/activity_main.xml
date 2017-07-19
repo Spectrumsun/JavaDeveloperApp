@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="spectrumsun.com.mymy.MainActivity">
+    tools:context="spectrumsun.com.mymy.spectrumsun.com.javaDeve.MainActivity">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/activity_main_swipe_refresh_layout"

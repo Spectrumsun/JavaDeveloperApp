@@ -1,4 +1,4 @@
-package spectrumsun.com.mymy;
+package spectrumsun.com.javaDeve;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+
+import spectrumsun.com.mymy.R;
 
 
 public class cotent extends AppCompatActivity {

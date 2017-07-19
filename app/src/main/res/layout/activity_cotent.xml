@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_marginBottom="15dp"
     android:layout_margin="16dp"
-    tools:context=".cotent">
+    tools:context="spectrumsun.com.javaDeve.cotent">
 
     <ImageView
         android:id="@+id/imageView"

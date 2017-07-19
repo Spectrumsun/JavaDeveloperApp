@@ -1,4 +1,4 @@
-package spectrumsun.com.mymy.app;
+package spectrumsun.com.javaDeve.app;
 
 /**
  * Created by Spectrum Sun on 07/16/2017.
@@ -12,8 +12,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
-import spectrumsun.com.mymy.util.LruBitmapCache;
-
+import spectrumsun.com.javaDeve.util.LruBitmapCache;
 
 
 public class AppController extends Application {
