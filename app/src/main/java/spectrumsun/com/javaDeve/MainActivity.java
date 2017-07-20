@@ -76,7 +76,9 @@ public class MainActivity extends AppCompatActivity {
 
                 new Handler().postDelayed(new Runnable(){
                     public void run(){
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        Intent intent = getIntent();
+                        finish();
+                        startActivity(intent);
                         mSwipeRefreshLayout.setRefreshing(false);
                     }
                 },2000);
@@ -170,8 +172,8 @@ public class MainActivity extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
                 VolleyLog.d(TAG, "Error: " + error.getMessage());
                 Log.i("error error error" , error.getMessage());
-                Toast.makeText(getApplicationContext(), "unable to access the internet", Toast.LENGTH_LONG).show();
-                text.setText("unable to access the internet. Check your connection and pull down to refresh the app.");
+                Toast.makeText(getApplicationContext(), getString(R.string.toast), Toast.LENGTH_LONG).show();
+                text.setText(getString(R.string.unable));
                 text.setVisibility(TextView.VISIBLE);
                 progressDialog.dismiss();
             }
@@ -194,16 +196,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-
-
-
-
-
-
-
-
-
-
 
 
 

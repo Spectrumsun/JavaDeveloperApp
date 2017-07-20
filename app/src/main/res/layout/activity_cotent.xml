@@ -11,7 +11,6 @@
     android:layout_margin="16dp"
     tools:context="spectrumsun.com.javaDeve.cotent">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
@@ -31,7 +30,6 @@
         android:layout_marginTop="11dp"
         android:id="@+id/textView" />
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +41,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -53,6 +50,5 @@
         android:layout_below="@+id/profile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
-
 
 </RelativeLayout>

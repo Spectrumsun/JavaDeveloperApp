@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Java Developers</string>
+    <string name="unable">unable to access the internet. Check your connection and pull down to refresh the app.</string>
+    <string name="toast">unable to access the internet</string>
+
+
 </resources>
