@@ -1,6 +1,8 @@
 package spectrumsun.com.javaDeve;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -71,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                Toast.makeText(getApplicationContext(), "Refresh" , Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Refreshing" , Toast.LENGTH_LONG).show();
                 mSwipeRefreshLayout.setRefreshing(true);
 
                 new Handler().postDelayed(new Runnable(){
@@ -194,6 +196,33 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.dismiss();
             progressDialog = null;
         }
+
+    }
+
+
+    @Override
+    public void onBackPressed() {
+
+        AlertDialog.Builder exit= new  AlertDialog.Builder(MainActivity.this);
+        exit.setMessage("Do you really want to exit ?")
+                .setCancelable(false)
+                .setPositiveButton("YES", new DialogInterface.OnClickListener(){
+                    @Override
+                    public void onClick(DialogInterface dialog, int which){
+                        finish();
+
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener(){
+                    @Override
+                    public void onClick(DialogInterface dialog, int which){
+                        dialog.cancel();
+                    }
+                })
+
+                .setTitle("WAIT");
+        exit.show();
+
 
     }
 
