@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String urlJsonObj = "https://api.github.com/search/users?q=java+location:lagos+language:java";
 
     ProgressDialog progressDialog;
-    private List<Gitapi> gitList = new ArrayList<Gitapi>();
+    private List<Gitapi> gitList = new ArrayList<>();
     private ListView listView;
     private CustomListAdapter adapter;
 
@@ -200,3 +200,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+
+
+//finish//
