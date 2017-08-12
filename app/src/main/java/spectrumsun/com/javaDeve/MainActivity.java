@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     TextView text;
 
     // Tag used to cancel the request
-    private static final String urlJsonObj = "https://api.github.com/search/users?q=java+location:lagos+language:java";
+    private static final String urlJsonObj = "https://api.github.com/search/users?q=location:lagos+language:java";
 
     ProgressDialog progressDialog;
     private List<Gitapi> gitList = new ArrayList<>();
